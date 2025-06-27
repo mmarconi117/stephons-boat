@@ -14,7 +14,7 @@ const Header = () => {
 
         {/* EXPERIENCES (with dropdown arrow, no box) */}
         <div className="flex items-center">
-          <a href="/experiences">Experiences</a>
+          <a href="/experiences">About</a>
           <span className="ml-1">▼</span>
         </div>
 
