@@ -6,11 +6,7 @@ const Header = () => {
         {/* HOME (underline effect) */}
         <a href="/" className="border-b-2 border-blue-600 pb-1">Home</a>
 
-        {/* OUR FLEET (boxed with dropdown arrow) */}
-        <div className="flex items-center border-2 border-blue-600 rounded px-3 py-1">
-          <a href="/fleet">Our Fleet</a>
-          <span className="ml-1">▼</span>
-        </div>
+
 
         {/* EXPERIENCES (with dropdown arrow, no box) */}
         <div className="flex items-center">
