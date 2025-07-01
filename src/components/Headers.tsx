@@ -1,32 +1,10 @@
-const Header = () => {
-  return (
-    <header className="flex items-center justify-between px-12 py-4 bg-white shadow-md">
-      {/* Navigation */}
-      <nav className="flex items-center space-x-10 font-bold text-sm uppercase text-black">
-        {/* HOME (underline effect) */}
-        <a href="/" className="border-b-2 border-blue-600 pb-1">Home</a>
+// const Header = () => {
+//   return (
+//    <div className="bg-green-500 text-white p-4">
+//   If this bar is green, Tailwind is working!
+// </div>
 
+//   );
+// };
 
-
-        {/* EXPERIENCES (with dropdown arrow, no box) */}
-        <div className="flex items-center">
-          <a href="/experiences">About</a>
-          <span className="ml-1">▼</span>
-        </div>
-
-        {/* CONTACT */}
-        <a href="/contact">Contact</a>
-      </nav>
-
-      {/* BOOK NOW button */}
-      <a
-        href="/book"
-        className="bg-blue-700 text-white px-6 py-2 font-bold text-sm uppercase hover:bg-blue-800 transition"
-      >
-        Book Now
-      </a>
-    </header>
-  );
-};
-
-export default Header;
+// export default Header;

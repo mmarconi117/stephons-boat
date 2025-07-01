@@ -1,11 +1,11 @@
-import Header from './components/Headers';
+// import Header from './components/Headers';
 
 function App() {
   return (
-    <div>
-      <Header />
-      {/* Add your main content here */}
-    </div>
+    <div className="bg-green-500 text-white p-4 text-center">
+  Tailwind is working if this bar is green!
+</div>
+
   );
 }
 
